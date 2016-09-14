@@ -1,0 +1,98 @@
+body {
+    background-color: #EFEFF4;
+    font-family:"Trebuchet MS";
+}
+
+p {
+    color: #6A6A6F;
+    font-size: 18px;
+}
+.section-main, .section-map {
+    margin-top: 10px;
+}
+
+.styled-select select {
+   background: #fff;
+   width: 100%;
+   padding: 5px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   }
+
+.styled-select {
+   width: 100%;
+   height: 34px;
+   overflow: hidden;
+   border: 1px solid #57585a;
+   }
+
+.input-search {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ 
+#map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ 
+.arcgisSearch .searchGroup .searchInput {
+    width: 90%;
+    
+}
+
+.arcgisSearch .searchGroup {
+    display: flex;
+    width: 100%;
+}
+
+.arcgisSearch .searchInputGroup{
+    float: none;
+}
+
+.arcgisSearch .searchIcon {
+    width: 10%;
+}
+
+.spotlight {
+  z-index:-1;
+  position:absolute;
+  left:50%;
+  top:50%;
+  border-radius:50%;
+  opacity:0;
+  box-shadow:
+  inset rgba(0,0,0,0.25) 0px 0px 20px 20px,
+  rgba(0,0,0,0.25) 0px 0px 0px 1000px;
+  transition:all 1000ms;
+  -moz-transition:all 1000ms;
+  -webkit-transition:all 1000ms;
+}
+
+.spotlight-active {
+  z-index:2;
+  opacity:1;
+}
+
+.searchExpandContainer {
+    width: 100%
+}
+
+#HomeButton, #LocateButton {
+    z-index: 50;
+    margin-bottom: 7px;
+}
+
+.HomeButton, .LocateButton {
+    display: inline-block !important;
+}
+
+.BasemapToggle {
+    width: 79px;
+}
+
